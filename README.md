@@ -127,7 +127,7 @@ Place all source files (`main.py`, `requirements.txt`, etc.) in your working dir
         --allow-unauthenticated \
         --memory=1Gi \
         --timeout=180s \
-        --set-env-vars=BUCKET_NAME=hsad-final-assets-v2,BIGQUERY_DATASET=hsad_final_catalog_v2,BIGQUERY_TABLE=assets,MODEL_ID=gemini-2.0-flash-001
+        --set-env-vars=BUCKET_NAME=hsad-final-assets-v2,BIGQUERY_DATASET=hsad_final_catalog_v2,BIGQUERY_TABLE=assets,MODEL_ID=gemini-2.5-flash
 
 ### Step 3: Connect Frontend to Backend
 
